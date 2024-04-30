@@ -25,7 +25,7 @@ const RegisterComponent = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container1">
       <div className="row justify-content-center">
         <div className="col-md-4">
           <form className="register-form">
@@ -50,7 +50,7 @@ const RegisterComponent = () => {
             </div>
             <button
               type="button"
-              className="btn btn-primary"
+              className="btn btn-outline-info"
               onClick={handleRegister}
             >
               Register
@@ -59,7 +59,7 @@ const RegisterComponent = () => {
               
               <button
                 type="button"
-                className="btn btn-primary"
+                className="btn btn-outline-info"
                 style={{marginLeft:'20px'}}
               >
                 Login

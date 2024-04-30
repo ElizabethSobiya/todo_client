@@ -10,7 +10,7 @@ const TodoComponent = () => {
   const [newTodoDescription, setNewTodoDescription] = useState('');
   const [editTodo, setEditTodo] = useState({ id: '', title: '', description: '' });
 
-  // Inside useEffect to fetch todos
+ 
 useEffect(() => {
     const userId = localStorage.getItem('userId');
     const storedTodos = localStorage.getItem('todos');
@@ -80,7 +80,7 @@ useEffect(() => {
 
   return (
     <div className="todo-container" style={{ marginTop: '200px' }}>
-      <button className="btn" onClick={handleLogout}>
+      <button className="btn1" onClick={handleLogout}>
         Logout
       </button>
       <h2>Todo List</h2>

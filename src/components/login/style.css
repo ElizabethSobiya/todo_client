@@ -1,0 +1,23 @@
+.container1 {
+    width: 100%;
+    max-width: 480px;
+    line-height:2rem;
+    height: 400px;
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 20%);
+    padding-top: 20px;
+    margin:200px auto auto auto;
+    outline: none;
+    
+  }
+  .signUp{
+    color:#f44336;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .acct{
+    color: grey;
+  }
+  input:focus {
+    box-shadow: none !important;
+  }
+  
